@@ -1,0 +1,1 @@
+#scrip run model individu
