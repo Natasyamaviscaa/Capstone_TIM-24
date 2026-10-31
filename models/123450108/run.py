@@ -1,1 +1,1 @@
-#script run model individu
+#Script run model individu
