@@ -1,0 +1,42 @@
+# Rencana eksperimen tim 24: Diagnosis beban pompa dari sinyal listrik saja
+# Label: Desain: kondisi selang (operator) + PWM
+tim: 24
+judul: Diagnosis beban pompa dari sinyal listrik saja
+pembimbing: Christyan Tamaro Nadeak
+pilar: Mesin dan energi
+seed: 1024
+ulangan: 4
+ulangan_blok: 2
+durasi_kondisi_detik: 15
+jeda_detik: 2
+rekam:
+audio:
+aktif: true
+sample_rate: 16000
+kamera:
+aktif: false
+faktor:
+pompa:
+- 120
+- 160
+- 200
+- 255
+beban_pompa:
+jenis: manual
+taraf:
+- selang lurus
+- selang tertekuk 90 derajat
+- ujung selang dinaikkan 30 cm
+instruksi: 'Atur selang: {taraf}'
+metode:
+jenis_tugas: Klasifikasi 3 kelas
+masukan_model: Arus pompa 200 Hz, jendela 1 s
+metrik_utama: F1-makro
+jalur:
+- CNN
+- RNN
+- Transformer
+- AE
+pembanding_non_dl: Fitur statistik + FFT (RMS, puncak, kurtosis, energi pita)
+↪
+ + Random Forest
