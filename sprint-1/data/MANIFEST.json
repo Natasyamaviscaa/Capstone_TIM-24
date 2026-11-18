@@ -1,0 +1,17 @@
+{
+  "sumber": "Kartu Data meja di Papan Tim Workbench: arsip tim24_sesi-20261117-113416",
+  "sesi": "sesi-20261117-113416",
+  "berkas": [
+    "data/sesi-20261117-113416/aktuator.csv",
+    "data/sesi-20261117-113416/daya.csv",
+    "data/sesi-20261117-113416/label.csv",
+    "data/sesi-20261117-113416/rencana.yaml"
+  ],
+  "sha256": {
+    "data/sesi-20261117-113416/aktuator.csv": "88b9972606fba496c39933defeb008603de1ab67fcaeafad50e73cf22cce9af0",
+    "data/sesi-20261117-113416/daya.csv": "f186a3c3f5f2d9d7579b34d4eee7c655e75a7c369c4f1d892da4c7ca81320ef0",
+    "data/sesi-20261117-113416/label.csv": "04772b9c4354d199ef12a44da6a1652af2dbd7ee2da8cebe7d2fe2896e630fd1",
+    "data/sesi-20261117-113416/rencana.yaml": "d9f0299f12f968425cfb8b5d1a99178a6a80ed58c8ada7f269946b2337700be9"
+  },
+  "catatan": "4 berkas dari sesi-20261117-113416; ekstrak arsip sesi ke data/sesi-20261117-113416/ (perekam 1.13, dibuat 2026-11-17T12:10:06.126)"
+}

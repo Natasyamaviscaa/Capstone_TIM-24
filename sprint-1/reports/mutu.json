@@ -1,0 +1,79 @@
+{
+  "n_kondisi": 96,
+  "n_blok": 6,
+  "kanal_daya": {
+    "kipas": 342710
+  },
+  "log_selesai": true,
+  "mulai": "2026-11-17 11:36",
+  "selesai": "2026-11-17 12:10",
+  "berkas_bermasalah": 0,
+  "wifi_putus": 12,
+  "n_dibuang": 12,
+  "jendela_sah": 1955,
+  "jendela_ditolak": 313,
+  "jendela_rencana": 2592,
+  "arus_kipas_median": -0.1,
+  "rel_mV": {
+    "lurus · pompa 120": {
+      "ub1": 4762.0,
+      "ub2": 4827.0
+    },
+    "lurus · pompa 160": {
+      "ub1": 4747.0,
+      "ub2": 4800.0
+    },
+    "lurus · pompa 200": {
+      "ub1": 4717.0,
+      "ub2": 4779.0
+    },
+    "lurus · pompa 255": {
+      "ub1": 4725.0,
+      "ub2": 4729.0
+    },
+    "tertekuk · pompa 120": {
+      "ub1": 4761.0,
+      "ub2": 4818.0
+    },
+    "tertekuk · pompa 160": {
+      "ub1": 4736.0,
+      "ub2": 4793.0
+    },
+    "tertekuk · pompa 200": {
+      "ub1": 4717.0,
+      "ub2": 4776.0
+    },
+    "tertekuk · pompa 255": {
+      "ub1": 4674.0,
+      "ub2": 4727.0
+    },
+    "dinaikkan · pompa 120": {
+      "ub1": 4836.0,
+      "ub2": 4824.0
+    },
+    "dinaikkan · pompa 160": {
+      "ub1": 4803.0,
+      "ub2": 4789.0
+    },
+    "dinaikkan · pompa 200": {
+      "ub1": 4789.0,
+      "ub2": 4781.0
+    },
+    "dinaikkan · pompa 255": {
+      "ub1": 4740.0,
+      "ub2": 4730.0
+    }
+  },
+  "efek_konsisten": "0/8",
+  "geser_antar_ub_lurus": [
+    65,
+    53,
+    62,
+    4
+  ],
+  "sidik_blok": {
+    "selang lurus": 0.834,
+    "selang tertekuk 90 derajat": 0.994,
+    "ujung selang dinaikkan 30 cm": 0.814
+  }
+}
