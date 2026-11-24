@@ -13,3 +13,5 @@ __pycache__/
 *.npy
 *.pt
 *.onnx
+*.pth
+*.ckpt
