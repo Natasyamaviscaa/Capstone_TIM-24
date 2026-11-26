@@ -1,0 +1,34 @@
+{
+  "jalur": "non-dl",
+  "seed": 1,
+  "dipilih": "svm",
+  "calon": {
+    "rf": {
+      "val_f1": 0.6642,
+      "val_acc": 0.676,
+      "val_f1_makro": 0.6643,
+      "val_f1_rinci": {
+        "selang lurus": 0.3841,
+        "selang tertekuk 90 derajat": 0.642,
+        "ujung selang dinaikkan 30 cm": 0.9667
+      }
+    },
+    "svm": {
+      "val_f1": 0.6757,
+      "val_acc": 0.6725,
+      "val_f1_makro": 0.6757,
+      "val_f1_rinci": {
+        "selang lurus": 0.4598,
+        "selang tertekuk 90 derajat": 0.6063,
+        "ujung selang dinaikkan 30 cm": 0.9609
+      }
+    }
+  },
+  "fitur": "statistik + energi 8 pita FFT per kanal",
+  "val_f1_makro": 0.6757,
+  "val_f1_rinci": {
+    "selang lurus": 0.4598,
+    "selang tertekuk 90 derajat": 0.6063,
+    "ujung selang dinaikkan 30 cm": 0.9609
+  }
+}

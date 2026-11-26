@@ -1,0 +1,188 @@
+{
+  "baseline": {
+    "matriks": [
+      [
+        31,
+        48,
+        10
+      ],
+      [
+        27,
+        65,
+        13
+      ],
+      [
+        12,
+        15,
+        66
+      ]
+    ],
+    "val_f1_makro": 0.5577,
+    "val_f1_rinci": {
+      "selang lurus": 0.3899,
+      "selang tertekuk 90 derajat": 0.5579,
+      "ujung selang dinaikkan 30 cm": 0.7253
+    },
+    "f1_per_daya": {
+      "120": 0.5575,
+      "160": 0.6353,
+      "200": 0.6604,
+      "255": 0.2497
+    }
+  },
+  "contoh-ae": {
+    "matriks": [
+      [
+        28,
+        60,
+        1
+      ],
+      [
+        38,
+        67,
+        0
+      ],
+      [
+        3,
+        2,
+        88
+      ]
+    ],
+    "val_f1_makro": 0.6313,
+    "val_f1_rinci": {
+      "selang lurus": 0.3544,
+      "selang tertekuk 90 derajat": 0.5726,
+      "ujung selang dinaikkan 30 cm": 0.967
+    },
+    "f1_per_daya": {
+      "120": 0.5,
+      "160": 0.6879,
+      "200": 0.5671,
+      "255": 0.5279
+    }
+  },
+  "contoh-cnn": {
+    "matriks": [
+      [
+        69,
+        19,
+        1
+      ],
+      [
+        48,
+        57,
+        0
+      ],
+      [
+        6,
+        0,
+        87
+      ]
+    ],
+    "val_f1_makro": 0.7473,
+    "val_f1_rinci": {
+      "selang lurus": 0.6509,
+      "selang tertekuk 90 derajat": 0.6298,
+      "ujung selang dinaikkan 30 cm": 0.9613
+    },
+    "f1_per_daya": {
+      "120": 0.6553,
+      "160": 0.842,
+      "200": 0.5305,
+      "255": 0.8581
+    }
+  },
+  "contoh-rnn": {
+    "matriks": [
+      [
+        29,
+        58,
+        2
+      ],
+      [
+        39,
+        66,
+        0
+      ],
+      [
+        8,
+        24,
+        61
+      ]
+    ],
+    "val_f1_makro": 0.5518,
+    "val_f1_rinci": {
+      "selang lurus": 0.3515,
+      "selang tertekuk 90 derajat": 0.5217,
+      "ujung selang dinaikkan 30 cm": 0.7821
+    },
+    "f1_per_daya": {
+      "120": 0.5,
+      "160": 0.6871,
+      "200": 0.5166,
+      "255": 0.1739
+    }
+  },
+  "contoh-trf": {
+    "matriks": [
+      [
+        57,
+        30,
+        2
+      ],
+      [
+        33,
+        71,
+        1
+      ],
+      [
+        6,
+        3,
+        84
+      ]
+    ],
+    "val_f1_makro": 0.743,
+    "val_f1_rinci": {
+      "selang lurus": 0.6162,
+      "selang tertekuk 90 derajat": 0.6794,
+      "ujung selang dinaikkan 30 cm": 0.9333
+    },
+    "f1_per_daya": {
+      "120": 0.7711,
+      "160": 0.8053,
+      "200": 0.6545,
+      "255": 0.7385
+    }
+  },
+  "non-dl": {
+    "matriks": [
+      [
+        40,
+        49,
+        0
+      ],
+      [
+        38,
+        67,
+        0
+      ],
+      [
+        7,
+        0,
+        86
+      ]
+    ],
+    "val_f1_makro": 0.6757,
+    "val_f1_rinci": {
+      "selang lurus": 0.4598,
+      "selang tertekuk 90 derajat": 0.6063,
+      "ujung selang dinaikkan 30 cm": 0.9609
+    },
+    "f1_per_daya": {
+      "120": 0.6445,
+      "160": 0.8071,
+      "200": 0.4589,
+      "255": 0.7455
+    }
+  }
+}

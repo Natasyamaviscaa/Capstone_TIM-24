@@ -1,0 +1,208 @@
+{
+  "jalur": "trf",
+  "seed": 1,
+  "hiper": {
+    "epoch": 30,
+    "lr": 0.001,
+    "batch": 64,
+    "wd": 0.01,
+    "d": 64,
+    "lapis": 2,
+    "kepala": 4,
+    "ffn": 128,
+    "dropout": 0.1,
+    "tambalan": 20,
+    "maks_token": 256
+  },
+  "parameter": 85123,
+  "latensi_ms": 0.28,
+  "val_f1_makro": 0.743,
+  "val_f1_rinci": {
+    "selang lurus": 0.6162,
+    "selang tertekuk 90 derajat": 0.6794,
+    "ujung selang dinaikkan 30 cm": 0.9333
+  },
+  "riwayat": [
+    {
+      "epoch": 1,
+      "loss": 0.9743,
+      "val_f1": 0.5236,
+      "val_acc": 0.5575
+    },
+    {
+      "epoch": 2,
+      "loss": 0.7687,
+      "val_f1": 0.5592,
+      "val_acc": 0.5436
+    },
+    {
+      "epoch": 3,
+      "loss": 0.6617,
+      "val_f1": 0.5755,
+      "val_acc": 0.5958
+    },
+    {
+      "epoch": 4,
+      "loss": 0.5962,
+      "val_f1": 0.5868,
+      "val_acc": 0.6446
+    },
+    {
+      "epoch": 5,
+      "loss": 0.5521,
+      "val_f1": 0.6101,
+      "val_acc": 0.6446
+    },
+    {
+      "epoch": 6,
+      "loss": 0.5313,
+      "val_f1": 0.6686,
+      "val_acc": 0.676
+    },
+    {
+      "epoch": 7,
+      "loss": 0.4832,
+      "val_f1": 0.6935,
+      "val_acc": 0.7003
+    },
+    {
+      "epoch": 8,
+      "loss": 0.446,
+      "val_f1": 0.6135,
+      "val_acc": 0.662
+    },
+    {
+      "epoch": 9,
+      "loss": 0.4293,
+      "val_f1": 0.6658,
+      "val_acc": 0.7003
+    },
+    {
+      "epoch": 10,
+      "loss": 0.3823,
+      "val_f1": 0.6811,
+      "val_acc": 0.6794
+    },
+    {
+      "epoch": 11,
+      "loss": 0.3305,
+      "val_f1": 0.6956,
+      "val_acc": 0.6899
+    },
+    {
+      "epoch": 12,
+      "loss": 0.3157,
+      "val_f1": 0.6961,
+      "val_acc": 0.6969
+    },
+    {
+      "epoch": 13,
+      "loss": 0.2836,
+      "val_f1": 0.7155,
+      "val_acc": 0.7108
+    },
+    {
+      "epoch": 14,
+      "loss": 0.2458,
+      "val_f1": 0.743,
+      "val_acc": 0.7387
+    },
+    {
+      "epoch": 15,
+      "loss": 0.2558,
+      "val_f1": 0.7306,
+      "val_acc": 0.7282
+    },
+    {
+      "epoch": 16,
+      "loss": 0.212,
+      "val_f1": 0.7192,
+      "val_acc": 0.7178
+    },
+    {
+      "epoch": 17,
+      "loss": 0.1861,
+      "val_f1": 0.7358,
+      "val_acc": 0.7352
+    },
+    {
+      "epoch": 18,
+      "loss": 0.1571,
+      "val_f1": 0.6999,
+      "val_acc": 0.7038
+    },
+    {
+      "epoch": 19,
+      "loss": 0.1361,
+      "val_f1": 0.7079,
+      "val_acc": 0.7213
+    },
+    {
+      "epoch": 20,
+      "loss": 0.1406,
+      "val_f1": 0.7196,
+      "val_acc": 0.7143
+    },
+    {
+      "epoch": 21,
+      "loss": 0.1397,
+      "val_f1": 0.7176,
+      "val_acc": 0.7213
+    },
+    {
+      "epoch": 22,
+      "loss": 0.1298,
+      "val_f1": 0.7324,
+      "val_acc": 0.7282
+    },
+    {
+      "epoch": 23,
+      "loss": 0.1175,
+      "val_f1": 0.7071,
+      "val_acc": 0.7108
+    },
+    {
+      "epoch": 24,
+      "loss": 0.1132,
+      "val_f1": 0.7273,
+      "val_acc": 0.7282
+    },
+    {
+      "epoch": 25,
+      "loss": 0.1178,
+      "val_f1": 0.7056,
+      "val_acc": 0.7073
+    },
+    {
+      "epoch": 26,
+      "loss": 0.1102,
+      "val_f1": 0.7111,
+      "val_acc": 0.7108
+    },
+    {
+      "epoch": 27,
+      "loss": 0.0911,
+      "val_f1": 0.7146,
+      "val_acc": 0.7143
+    },
+    {
+      "epoch": 28,
+      "loss": 0.0998,
+      "val_f1": 0.7119,
+      "val_acc": 0.7143
+    },
+    {
+      "epoch": 29,
+      "loss": 0.1119,
+      "val_f1": 0.7107,
+      "val_acc": 0.7143
+    },
+    {
+      "epoch": 30,
+      "loss": 0.0969,
+      "val_f1": 0.7119,
+      "val_acc": 0.7143
+    }
+  ],
+  "epoch_terbaik": 14
+}

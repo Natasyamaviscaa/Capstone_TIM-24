@@ -1,10 +1,17 @@
-# dataset kasus tim tidak di-commit; hanya manifesnya
-data/*
-!data/MANIFEST.json
+.DS_Store
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+**/data/*
+!**/data/MANIFEST.json
+*.wav
+*.jpg
+*.png
+*.mp4
+*.npz
+*.npy
 *.pt
+*.onnx
 *.pth
 *.ckpt
-__pycache__/
-.ipynb_checkpoints/
-.venv/
-# prediksi boleh di-commit (kecil); checkpoint model tidak
